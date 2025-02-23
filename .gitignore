@@ -1,0 +1,75 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files (you might want to keep some, so adjust accordingly)
+*.xlsx
+*.json
+*.hdf5
+*.h5
+*.pkl
+*.pickle
+*.db
+*.sqlite
+*.feather
+*.parquet
+
+# Ignore large files or directories
+datasets/
+raw_data/
+processed_data/
+external_data/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore logs and outputs
+logs/
+*.log
+output/
+results/
+models/
+
+# Ignore environment files (except for the one you want to share)
+.env
+*.env
+secrets.yml
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore R files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Ignore compiled documents
+*.docx
+*.xlsx
+*.pptx
+
+# Ignore system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore any other temporary files
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
